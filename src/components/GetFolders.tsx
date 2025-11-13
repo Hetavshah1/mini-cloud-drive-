@@ -45,11 +45,12 @@ function GetFolders({
           onDoubleClick={() => {
             select !== "trashed" && router.push("/drive/folders/" + folder.id);
           }}
-          className="relative flex w-[13.75rem] cursor-alias items-center justify-between rounded-xl bg-darkC2 p-3 hover:bg-darkC"
+          className="relative flex w-[13.75rem] cursor-pointer items-center justify-between 
+          rounded-xl bg-brand-light/20 p-3 hover:bg-brand-light/30 transition border border-brand-light "
         >
-          <div className="flex items-center space-x-2">
-            <AiFillFolder className="h-6 w-6" />
-            <span className="w-32 truncate text-sm font-medium text-textC">
+          <div className="flex items-center space-x-3">
+            <AiFillFolder className="h-7 w-7" />
+            <span className="w-32 truncate text-sm font-medium text-brand-dark">
               {folder.folderName}
             </span>
           </div>

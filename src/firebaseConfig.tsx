@@ -4,13 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB4L27n9mGVRkAzdB8CXfYZoLnbobooLUA",
-  authDomain: "drive-clone-ab4c6.firebaseapp.com",
-  projectId: "drive-clone-ab4c6",
-  storageBucket: "drive-clone-ab4c6.appspot.com",
-  messagingSenderId: "841798489358",
-  appId: "1:841798489358:web:541aa5cc0367a3689a335f",
-  measurementId: "G-6JZWYJPKEZ",
+  apiKey: "AIzaSyAeiTX6pSnq78FQZljM5UjCV5iGlL2mEss",
+  authDomain: "mini-cloud-drive-2-a0392.firebaseapp.com",
+  projectId: "mini-cloud-drive-2-a0392",
+  storageBucket: "mini-cloud-drive-2-a0392.firebasestorage.app",
+  messagingSenderId: "70787041032",
+  appId: "1:70787041032:web:4d8462ee94ee81bafbcebd"
 };
 
 // Initialize Firebase

@@ -35,8 +35,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>My Drive - Google Drive</title>
-        <meta name="description" content="This is a google drive clone!" />
+        <title>MiniCloudDrive</title>
+        <meta name="description" content="Store your files safely with MiniDrive" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
@@ -73,19 +73,32 @@ export default function Home() {
                 </>
               ) : (
                 // If there are no files or folders, display the empty state
-                <div className="flex h-full flex-col items-center justify-center">
-                  <h2 className="mb-5 text-xl font-medium text-textC">
-                    A place for all of your files
-                  </h2>
-                  <Image
-                    draggable={false}
-                    src="/empty_state_drive.png"
-                    width={500}
-                    height={500}
-                    alt="empty-state"
-                    className="w-full max-w-2xl object-cover object-center"
-                  />
+              <div className="flex h-full flex-col items-center justify-center animate-fadeInSlow">
+
+                <div className="flex h-40 w-40 items-center justify-center rounded-full bg-brand-light/20">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-16 w-16 text-brand-dark"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 7a2 2 0 012-2h3l1.5 2H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"
+                    />
+                  </svg>
                 </div>
+
+                <p className="mt-6 text-lg text-brand-dark/80 font-medium">
+                  Your MiniDrive is empty
+                </p>
+                <p className="text-sm text-textC mt-1">
+                  Upload files or create folders to get started
+                </p>
+              </div>
               )}
             </>
           )}

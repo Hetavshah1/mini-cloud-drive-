@@ -5,11 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        textC: "#444746",
-        textC2: "#4285F4",
-        bgc: "#F7F9FC",
-        darkC2: "#EDF2FC",
-        darkC: "#E1E5EA",
+        brand: {
+          DEFAULT: "#059669", // ocean green
+          light: "#34d399",
+          dark: "#047857",
+        },
+        textC: "#3a3d3c",
+        bgc: "#F8FAF9",
+        darkC2: "#E7F7F4",
+        darkC: "#D3EFE9",
       },
     },
     screens: {

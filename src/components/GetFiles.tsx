@@ -77,12 +77,13 @@ function GetFiles({ folderId, select }: { folderId: string; select: string }) {
         >
           <div
             className="flex w-full flex-col items-center justify-center
-         overflow-hidden rounded-xl bg-darkC2 px-2.5 hover:bg-darkC"
+          overflow-hidden rounded-xl bg-brand-light/20 hover:bg-brand-light/30 border border-brand-light
+          transition"
           >
             <div className="relative flex w-full items-center justify-between px-1 py-3">
               <div className="flex items-center space-x-4">
                 <div className="h-6 w-6">{icon}</div>
-                <span className="w-32 truncate text-sm font-medium text-textC">
+                <span className="w-32 truncate text-brand-dark font-medium text-textC">
                   {file.fileName}
                 </span>
               </div>

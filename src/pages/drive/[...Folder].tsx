@@ -40,8 +40,8 @@ function Folder() {
   return (
     <>
       <Head>
-        <title>My Drive - Google Drive</title>
-        <meta name="description" content="This is a google drive clone!" />
+        <title>My Drive - MiniCloudDrive</title>
+        <meta name="description" content="Fast, secure and elegant cloud storage — MiniDrive" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
