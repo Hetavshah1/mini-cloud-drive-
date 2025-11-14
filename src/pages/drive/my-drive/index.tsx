@@ -93,7 +93,7 @@ export default function Home() {
                 </div>
 
                 <p className="mt-6 text-lg text-brand-dark/80 font-medium">
-                  Your MiniDrive is empty
+                  Your MiniCloudDrive is empty
                 </p>
                 <p className="text-sm text-textC mt-1">
                   Upload files or create folders to get started
